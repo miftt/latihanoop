@@ -32,6 +32,7 @@ class Produk
 
 class CetakInfoProduk
 {
+    //type objectnya adalah produk
     public function cetak(Produk $produk)
     {
         $str = "{$produk->judul} | {$produk->getLabel()} (Rp. {$produk->harga})";
